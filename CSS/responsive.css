@@ -1,3 +1,103 @@
-@media (max-width:1024px;) {
+@media (max-width:768px) {
+    .navigation{
+        display: none;
+    }
+
+    .burger-bar{
+        display: block;
+        color: white;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    .section-title {
+        font-size: 12px;}
+
+    .heading1 {
+        font-size: 30px;}
     
+    .support-heading {
+        width: 400px;
+        }
+    .heading-photos {
+        width: 400px;
+    }
+    .section-subtitle {
+        font-size: 26px;
+    }
+    .contact-info {
+        font-size: 12px;
+    }
+
+    /* Footer */
+    .top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .hotel-description-block {
+        max-width: 600px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .zetta {
+        font-size: 18px;
+    }
+    .hotel-description {
+        font-size: 12px;
+    }
+
+    .footer-headings {
+        font-size: 14px;
+    }
+
+    .listfont {
+        font-size: 12px;
+    }
+
+    .con-inf {
+        font-size: 12px;
+    }
+
+    .copyright-text {
+        font-size: 10px;
+    }
+
+    .portfolio-link {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 380px){
+    .support-heading {
+        max-width: 300px;
+        width: 90%;
+    }
+
+    .heading-photos {
+        width: 300px;
+        width: 90%;
+    }
+
+    .icons-block {
+        flex-direction: column;
+    }
+
+    .second-section {
+        margin-bottom: 300px;
+    }
+
+    .icon-block-div { 
+        margin-bottom: 23px;
+    }
+
+    .fill-info {
+        flex-direction: column;
+    }
+
+    .description-box {
+        margin-bottom: 20px;
+    }
 }
