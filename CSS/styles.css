@@ -19,13 +19,20 @@ header {
 
 .logo {
     color: white;
-    padding-left: 40px;
 }
 
 .nav-item {
     color: white;
 }
 
+.active {
+    color: #5863F8;
+}
+
+.fa-angle-down {
+    color: white;
+    margin-left: 6px;
+}
 
 .header-wraper {
     max-width: 1088px;
@@ -45,16 +52,22 @@ header {
     justify-content: space-between;
 }
 
+.burger-bar {
+    display: none;
+}
 
 
 /* HEADER PART 2 */
 
 .header-left-side {
-    margin-left: 139px;
+    max-width: 1088px;
+    width: 100%;
     margin-top: 96px;
     padding-bottom: 85px;
     display: flex;
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -95,9 +108,8 @@ p,a,h1,h2 {
 
 .map {
     max-width: 1088px;
-    width: 100%;
+    width: 100%; 
     margin: 50px auto 56px auto;
-  
 }
 
 .mapi {
@@ -392,3 +404,8 @@ p,a,h1,h2 {
 
 }
 
+.first-section {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
